@@ -8,7 +8,7 @@ local lib
 if shared["betterisfile"]("Tapeware/GuiLibrary.lua") then
     lib = loadstring(readfile("Tapeware/GuiLibrary.lua"))()
 else
-    lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/MainGuiLibrary"))()
+    lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/uhbsahu9fashuifa/tapeware/main/MainGuilbrary.lua"))()
 end
 local getasset = getsynasset or getcustomasset
 local ScreenGuitwo = game:GetService("CoreGui").RektskyNotificationGui

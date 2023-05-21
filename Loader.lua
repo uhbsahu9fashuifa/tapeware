@@ -9,19 +9,19 @@ if placeid == 6872274481 or placeid == 8560631822 or placeid == 8444591321 then
     if betterisfile("Tapeware/Modules/bedwars.lua") then
         loadstring(readfile("Tapeware/Modules/bedwars.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/Modules/bedwars.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/uhbsahu9fashuifa/tapeware/main/Modules/bedwars.lua"))()
     end
 elseif placeid == 6872265039 then
     if betterisfile("Tapeware/Modules/6872265039.lua") then
         loadstring(readfile("Tapeware/Modules/6872265039.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/Modules/6872265039.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/uhbsahu9fashuifa/tapeware/main/Modules/6872265039.lua"))()
     end
 else
     if betterisfile("Tapeware/Modules/Universal.lua") then
         loadstring(readfile("Tapeware/Modules/Universal.lua"))()
     else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/Modules/Universal.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/uhbsahu9fashuifa/tapeware/main/Modules/Universal.lua"))()
     end
 end
 
