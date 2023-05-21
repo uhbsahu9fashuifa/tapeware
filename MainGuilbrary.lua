@@ -863,7 +863,7 @@ function lib:CreateWindow()
 end
 lib:ToggleLib()
 uis.InputBegan:Connect(function(input)
-    if input.KeyCode == Enum.KeyCode.P then
+    if input.KeyCode == Enum.KeyCode.ctrl then
         lib:ToggleLib()
     end
 end) 
